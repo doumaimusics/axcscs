@@ -1,0 +1,1172 @@
+@charset "UTF-8";
+.clearfix {
+    zoom: 1;
+}
+
+.clear {
+    clear: both;
+}
+
+.clearfix:after {
+    content: '.';
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+body {
+    background: #E5EBEE;
+    font-family: "微软雅黑";
+}
+
+.m-banner {
+    height: 770px;
+    background: url(http://img.jdbpcb.com/img/bb/top-bg.jpg) #000000 no-repeat top center;
+}
+
+.m-banner .m-header {
+    width: 1190px;
+    height: 88px;
+    margin: 0 auto;
+}
+
+.m-header h1{
+    float: left;
+    width: 324px;
+    height: 88px;
+}
+
+.m-banner .m-header .m-nav-top {
+    float: right;
+    margin-right: 48px;
+}
+
+.m-banner .m-header .m-nav-top a {
+    font-size: 16px;
+    color: #fff;
+    line-height: 50px;
+    text-decoration: none;
+}
+
+.m-banner .m-header .m-nav-top .seq {
+    color: #fff;
+}
+
+.m-banner .m-register-box {
+    width: 1190px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.m-banner .m-register-box .m-qq {
+    width: 112px;
+    height: 48px;
+    background: #036EC7;
+    border-radius: 5px;
+    border: 1px solid #1CAEE8;
+    font-size: 19px;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    position: absolute;
+    left: 0;
+    top: 500px;
+    cursor: pointer;
+}
+
+.m-banner .m-register-box .m-newly-register {
+    width: 175px;
+    height: 48px;
+    background: #FF9D0C;
+    border: 1px solid #FFF083;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    font-size: 19px;
+    position: absolute;
+    left: 0px;
+    top: 400px;
+    cursor: pointer;
+}
+
+.m-newly-register a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.m-banner .m-register-box .m-Login-box {
+    width: 380px;
+    height: 540px;
+    background: url(http://img.jdbpcb.com/img/bb/zc-bg.jpg) no-repeat;
+    background-size: cover;
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    border: 5px solid #E16008;
+}
+
+.m-banner .m-register-box .m-Login-box .m-vip {
+    height: 71px;
+    padding: 0 23px 0 12px;
+}
+
+.m-banner .m-register-box .m-Login-box .m-vip i {
+    width: 325px;
+    height: 71px;
+    display: block;
+    box-sizing: border-box;
+    background: url(http://img.jdbpcb.com/img/bb/vip.png) no-repeat;
+    background-size: 325px 71px;
+}
+
+.m-banner .m-register-box .m-Login-box .u-account-box {
+    padding: 0 24px;
+    box-sizing: border-box;
+}
+
+.u-account-number {
+    position: relative;
+    margin: 12px 0px 16px;
+    font-size: 14px;
+    color: #636363;
+    border: 1px solid #B7B7B7;
+    background: #ffffff;
+}
+
+.u-account-number label{
+    float: left;
+    width: 75px;
+    height: 36px;
+    line-height: 36px;
+    padding-left: 10px;
+}
+
+.u-account-number input {
+    width: 220px;
+    height: 36px;
+    line-height: 36px;
+    text-indent: 15px;
+    outline: none;
+    border: 0 none;
+}
+
+.btn-phonecode{
+    position: absolute;
+    right: 3px;
+    top: 3px;
+    width: 100px;
+    height: 30px;
+    border: none;
+    background: #ffedd0;
+    color: #E16008;
+    padding: 0;
+}
+
+.imgcode{
+    position: absolute;
+    right: 3px;
+    top: 3px;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.m-banner .m-register-box .m-Login-box .u-user {
+    font-size: 12px;
+    box-sizing: border-box;
+    line-height: 24px;
+    vertical-align: middle;
+    margin-bottom: 10px;
+}
+
+.m-banner .m-register-box .m-Login-box .u-user .checked {
+    width: 13px;
+    height: 13px;
+    border: none;
+    margin-right: 3px;
+    vertical-align: middle;
+    padding-left: 0px;
+}
+
+.m-banner .m-register-box .m-Login-box .u-user a {
+    color: #0000CC;
+
+    text-decoration: none;
+}
+
+span.u-mm {
+    float: right;
+    text-align: right;
+}
+
+.m-banner .m-register-box .m-Login-box .u-state {
+    padding: 5px 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 14px;
+    color: #3e3e3e;
+}
+
+.m-banner .m-register-box .m-Login-box .u-state i {
+    font-size: 18px;
+    color: #ff0000;
+}
+
+.m-banner .m-register-box .m-Login-box .u-Login-immediately {
+    width: 285px;
+    cursor: pointer;
+    margin: 0 auto;
+    font-size: 28px;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    background: #FF6901;
+    border-radius: 5px;
+}
+
+.m-center-box {
+    height: 345px;
+    background: #E5EBEE;
+}
+
+.m-center-box .m-center-nk {
+    width: 1190px;
+    margin: auto;
+    position: relative;
+}
+
+.m-center-box .m-center-nk .u-guide {
+    position: absolute;
+    top: -80px;
+    left: 0;
+    overflow: hidden;
+}
+
+.m-center-box .m-center-nk .u-guide li.ml-none {
+    margin: 0;
+}
+
+.m-center-box .m-center-nk .u-guide li {
+    width: 280px;
+    border: 1px solid #CFCFCF;
+    float: left;
+    margin-left: 15px;
+    overflow: hidden;
+    text-align: center;
+    background: #fff;
+}
+
+.m-center-box .m-center-nk .u-guide li .u-guide-img {
+    width: 183px;
+    height: 180px;
+    margin: 47px auto 10px auto;
+}
+
+.m-center-box .m-center-nk .u-guide li .u-guide-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.m-center-box .m-center-nk .u-guide li h3 {
+    font-size: 28px;
+    color: #e16008;
+}
+
+.m-center-box .m-center-nk .u-guide li h3 a {
+    color: #e16008;
+    text-decoration: none;
+}
+
+.m-center-box .m-center-nk .u-guide li p {
+    font-size: 12px;
+    color: #aeaeae;
+}
+
+.m-center-box .m-center-nk .u-guide li .u-btn {
+    width: 130px;
+    height: 33px;
+    margin: 0 auto;
+    font-size: 16px;
+    color: #fff;
+    background: #FF6901;
+    margin: 10px auto 40px auto;
+}
+
+.m-center-box .m-center-nk .u-guide li .u-btn a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    line-height: 33px;
+    text-decoration: none;
+}
+
+.m-center-box .m-center-nk .u-guide li .u-bottom-border {
+    width: 188px;
+    height: 2px;
+    background: #FF6901;
+    margin-bottom: 0;
+    margin: auto;
+}
+
+.m-activity {
+    background: red;
+}
+
+.m-activity .m-activity-center {
+    width: 1190px;
+    margin: 0 auto;
+    padding: 10px 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.m-activity .m-activity-center .u-activity-title {
+    width: 204px;
+    height: 148px;
+    background: url(http://img.jdbpcb.com/img/bb/title.png) no-repeat;
+    background-size: cover;
+    float: left;
+    position: relative;
+}
+
+.m-activity .m-activity-center .u-activity-title a {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+.m-activity .m-activity-center .u-activity-center {
+    width: 967px;
+    height: 130px;
+    float: right;
+    background: #F3A448;
+    padding: 7px;
+}
+
+.m-activity .m-activity-center .u-activity-center .u-activity-list li.ml-none {
+    margin: 0;
+}
+
+.m-activity .m-activity-center .u-activity-center .u-activity-list li {
+    width: 212px;
+    height: 130px;
+    background: url(http://img.jdbpcb.com/img/bb/click-bg.png) no-repeat;
+    background-size: 236px 130px;
+    overflow: hidden;
+    padding-right: 24px;
+    position: relative;
+    float: left;
+    display: inline;
+    margin-left: 7px;
+}
+
+.m-activity .m-activity-center .u-activity-center .u-activity-list li .u-activity-arch.ative {
+    margin: 20px auto 0px auto;
+}
+
+.m-activity .m-activity-center .u-activity-center .u-activity-list li .u-activity-arch {
+    margin-top: 10px;
+}
+
+.m-activity .m-activity-center .u-activity-center .u-activity-list li .u-activity-arch img.active {
+    margin: 20px auto 0px 7px;
+}
+
+.m-activity .m-activity-center .u-activity-center .u-activity-list li .u-activity-arch img {
+    display: block;
+    margin: 20px auto 10px 23px;
+}
+
+.m-activity .m-activity-center .u-activity-center .u-activity-list li .u-activity-text {
+    width: 175px;
+    background: #F3A448;
+    border-radius: 10px;
+    margin: 20px auto 0 20px;
+    font-size: 16px;
+    color: #2d2c31;
+    text-align: center;
+    line-height: 25px;
+}
+
+.m-activity .m-activity-center .u-activity-center .u-activity-list li a {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    text-decoration: none;
+    display: block;
+}
+
+.m-advantage-box {
+    background: #E5EBEE;
+    padding: 35px 0;
+}
+
+.m-advantage-center {
+    width: 1190px;
+    margin: 0 auto;
+}
+
+.m-advantage-box .m-advantage-center .m-advantage-title {
+    height: 76px;
+}
+
+.m-advantage-box .m-advantage-center .m-advantage-title.u-advan-bg1 {
+    background: url(http://img.jdbpcb.com/img/bb/ys.png) no-repeat;
+    background-size: 752px 76px;
+    background-position: center center;
+}
+
+.m-advantage-box .m-advantage-center .m-advantage-title.u-advan-bg2 {
+    background: url(http://img.jdbpcb.com/img/bb/pz.png) no-repeat;
+    background-size: 752px 76px;
+    background-position: center center;
+}
+
+.m-advantage-box .m-advantage-center .m-advantage-title.u-advan-bg3 {
+    background: url(http://img.jdbpcb.com/img/bb/jl.png) no-repeat;
+    background-size: 752px 76px;
+    background-position: center center;
+}
+
+.m-advantage-box .m-advantage-center .m-advantage-title.u-advan-bg4 {
+    background: url(http://img.jdbpcb.com/img/bb/kh.png) no-repeat;
+    background-size: 752px 76px;
+    background-position: center center;
+}
+
+.m-advantage-box .m-advantage-center .m-advantage-list {
+    position: relative;
+    margin: 30px 0;
+}
+
+.m-advantage-box .m-advantage-center .m-advantage-list li.ml-none {
+    margin: 0;
+}
+
+.m-advantage-box .m-advantage-center .m-advantage-list li {
+    width: 24%;
+    float: left;
+    margin-left: 10px;
+}
+
+.m-advantage-box .m-advantage-center .m-advantage-list li i {
+    display: block;
+    width: 116px;
+    height: 116px;
+    margin: 10px auto;
+}
+
+.m-advantage-box .m-advantage-center .m-advantage-list li i.u-list1 {
+    background: url(http://img.jdbpcb.com/img/bb/ys1.png) no-repeat;
+    background-size: cover;
+}
+
+.m-advantage-box .m-advantage-center .m-advantage-list li i.u-list2 {
+    background: url(http://img.jdbpcb.com/img/bb/ys2.png) no-repeat;
+    background-size: cover;
+}
+
+.m-advantage-box .m-advantage-center .m-advantage-list li i.u-list3 {
+    background: url(http://img.jdbpcb.com/img/bb/ys3.png) no-repeat;
+    background-size: cover;
+}
+
+.m-advantage-box .m-advantage-center .m-advantage-list li i.u-list4 {
+    background: url(http://img.jdbpcb.com/img/bb/ys4.png) no-repeat;
+    background-size: cover;
+}
+
+.m-advantage-box .m-advantage-center .m-advantage-list li .u-advantage-title {
+    width: 100%;
+    text-align: center;
+    color: #5a5657;
+    font-size: 20px;
+}
+
+.m-advantage-box .m-advantage-center .m-advantage-list li .u-advantage-title em {
+    display: inline-block;
+    width: 23px;
+    height: 23px;
+    vertical-align: middle;
+}
+
+.m-advantage-box .m-advantage-center .m-advantage-list li .u-advantage-title em.u-title-icon1 {
+    background: url(http://img.jdbpcb.com/img/bb/ysx1.png) no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.m-advantage-box .m-advantage-center .m-advantage-list li .u-advantage-title em.u-title-icon2 {
+    background: url(http://img.jdbpcb.com/img/bb/ysx2.png) no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.m-advantage-box .m-advantage-center .m-advantage-list li .u-advantage-title em.u-title-icon3 {
+    background: url(http://img.jdbpcb.com/img/bb/ysx3.png) no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.m-advantage-box .m-advantage-center .m-advantage-list li .u-advantage-title em.u-title-icon4 {
+    background: url(http://img.jdbpcb.com/img/bb/ysx4.png) no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.m-advantage-box .m-advantage-center .m-advantage-list li .u-advantage-text {
+    width: 245px;
+    height: 120px;
+    padding: 10px 10px;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #5a5657;
+    border-radius: 15px;
+    font-size: 16px;
+    color: #5a5657;
+}
+
+.m-advantage-box .m-advantage-center .m-advantage-list2 {
+    position: relative;
+    margin: 30px 0;
+    overflow: hidden;
+}
+
+.m-advantage-box .m-advantage-center .m-advantage-list2 li.ml-none {
+    margin: 0;
+}
+
+.m-advantage-box .m-advantage-center .m-advantage-list2 li {
+    width: 22%;
+    float: left;
+    margin-left: 35px;
+}
+
+.m-advantage-box .m-advantage-center .m-advantage-list2 li em {
+    display: inline-block;
+    width: 19px;
+    height: 19px;
+    vertical-align: middle;
+    background: url(http://img.jdbpcb.com/img/bb/k.png) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin-left: 10px;
+}
+
+.m-advantage-box .m-advantage-center .m-advantage-list2 li span {
+    font-size: 18px;
+    color: #eb5904;
+    vertical-align: middle;
+}
+
+.m-advantage-box .m-advantage-center .m-advantage-list2 li p {
+    font-size: 14px;
+    color: #2f2f2f;
+    margin: 10px 0;
+    padding: 0 10px;
+}
+
+.m-advantage-box .m-advantage-center .m-advantage-list2 li .u-img {
+    width: 268px;
+    height: 227px;
+}
+
+.m-advantage-box .m-advantage-center .m-advantage-list3 {
+    position: relative;
+    margin: 30px 0;
+    overflow: hidden;
+}
+
+.m-advantage-box .m-advantage-center .m-advantage-list3 li.ml-none {
+    margin: 0;
+}
+
+.m-advantage-box .m-advantage-center .m-advantage-list3 li {
+    width: 184px;
+    height: 184px;
+    border: 1px solid #B0B0B0;
+    background: #fff;
+    float: left;
+    margin-left: 14px;
+    margin-bottom: 19px;
+    position: relative;
+}
+
+.m-advantage-box .m-advantage-center .m-advantage-list3 li .u-img {
+    width: 162px;
+    height: 167px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+.m-advantage-box .m-advantage-center .m-transaction-flow {
+    height: 385px;
+    background: url(http://img.jdbpcb.com/img/bb/jl-bg.jpg) no-repeat;
+    background-size: cover;
+    margin: 25px 0 100px 0;
+    position: relative;
+    font-size: 32px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.m-advantage-box .m-advantage-center .m-transaction-flow .u-span1 {
+    position: absolute;
+    left: 70px;
+    top: 85px;
+}
+
+.m-advantage-box .m-advantage-center .m-transaction-flow .u-span2 {
+    position: absolute;
+    left: 200px;
+    top: 225px;
+}
+
+.m-advantage-box .m-advantage-center .m-transaction-flow .u-span3 {
+    position: absolute;
+    left: 335px;
+    top: 88px;
+}
+
+.m-advantage-box .m-advantage-center .m-transaction-flow .u-span4 {
+    position: absolute;
+    left: 465px;
+    top: 222px;
+}
+
+.m-advantage-box .m-advantage-center .m-transaction-flow .u-span5 {
+    position: absolute;
+    left: 605px;
+    top: 85px;
+}
+
+.m-advantage-box .m-advantage-center .m-transaction-flow .u-span6 {
+    position: absolute;
+    left: 730px;
+    top: 225px;
+}
+
+.m-advantage-box .m-advantage-center .m-transaction-flow .u-span7 {
+    position: absolute;
+    left: 872px;
+    top: 85px;
+}
+
+.m-advantage-box .m-advantage-center .m-transaction-flow .u-span8 {
+    position: absolute;
+    left: 998px;
+    top: 225px;
+}
+
+.m-advantage-center .m-center-content h3{
+	font-size: 56px;
+	color: #000;
+	text-align: center;
+	font-weight: normal;
+	font-family: '方正兰亭超细黑简体';
+}
+.m-advantage-center .m-center-content h4{
+	font-size: 44px;
+	color: #000;
+	text-align: center;
+	font-weight: normal;
+	font-family: '方正兰亭超细黑简体';
+}
+.m-service-box{
+	width: 688px;
+	height: 269px;
+	border: 3px solid #000000;
+	margin: 60px auto 10px auto;
+	position: relative;
+	text-align: center;
+}
+.m-service-box .m-title{
+	font-size:38px;
+	color: #000;
+	position: absolute;
+	left: 22.5%;
+	top: -30px;
+	margin: auto;
+	line-height: 50px;
+	text-align: center;
+	padding: 0 20px;
+	background: #E5EBEE;
+}
+.m-service-box .m-content{
+	font-size: 70px;
+	color: #000;
+	margin-top:34px ;
+	text-align: center;
+}
+.m-service-box .m-time{
+	font-size: 46px;
+	color: #b6b6b6;
+	text-align: center;
+	font-family: Birch Std Regular;
+}
+.m-service-box .m-deliery{
+	text-align: center;
+	font-size: 30px;
+	color: #000;
+}
+.m-service-box .m-deliery i{color: #FF0000;}
+
+/*注册导航的css*/
+.m-register-nav-box{
+	width: 100%;
+	background: #E0E0E0;
+	padding: 15px 0;
+}
+.m-register-nav-box a{
+	text-decoration: none;
+}
+ .m-register-l{
+	width: 35%;
+	height: 145px;
+	float: left;
+	background: url(../img/zc-bg.png) no-repeat;
+	background-size:412px 133px;
+	cursor: pointer;
+}
+ .m-register-l p{
+ 	font-size: 14px;
+ 	color: #000;
+ 	margin-top: 115px;
+ }
+
+  .m-register-r{
+  	width: 64%;
+  	float: right;  	
+  	text-decoration: none;
+  	padding-top: 25px;
+  }
+.m-register-r p{
+	font-size: 18px;
+	color: #000;
+}
+.m-register-r p i{
+	color: #B80000;
+}
+.m-register-r p i em{
+	font-style: italic;
+}
+.m-register-r button{
+padding: 3px;
+background:#B80000;
+float: right;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+outline:none;
+}
+.m-button{
+	border: 2px solid #fff;
+	border-radius: 5px;
+	padding: 4px 9px;
+  color: #fff;
+}
+
+
+/*特价优惠css*/
+.m-special-box{
+	width: 100%;
+	padding: 50px 0 20px 0;
+	background: #fff;
+}
+.m-special-box .m-special-title{
+	width: 100%;
+	height: 82px;
+	background: url(../img/tj.png) no-repeat;
+	background-size:100%;
+	margin-bottom: 115px;
+}
+.m-special-box .m-special-title.m-special-title-bj2{
+	width: 100%;
+	height: 82px;
+	background: url(../img/sd.png) no-repeat;
+	background-size:100%;
+	margin-bottom: 115px;
+}
+.m-advantage-center .m-special-top{
+	position: relative;
+}
+.m-special-details.m-border-none{
+	border: none;
+}
+.m-special-details.m-height{
+	height: auto;
+}
+.m-special-details{
+	width: 30%;
+	height: 647px;
+	padding: 0 15px;
+	border-right: 1px solid #CCCCCC;
+	float: left;
+}
+.m-special-details .m-details-box.m-border-none{
+	border: none;
+}
+.m-special-details .m-details-box.m-padding-none{
+	padding-top:0;
+	padding-bottom: 10px;
+}
+.m-special-details .m-details-box.m-padding{
+	padding-top:15px;
+}
+.m-special-details .m-details-box{
+	padding-top:60px ;
+	padding-bottom: 30px;
+	border-bottom:2px solid #CCCCCC ;
+}
+ .m-details-box .m-details-center.m-margin{
+ 	margin-left: 20px;
+ 	margin-top: 40px;
+ }
+ .m-details-box .m-details-center.m-margintwo{
+ 		margin-left: 20px;
+ 	margin-top: 155px;
+ }
+ .m-details-box .m-details-center{
+	float: left;
+}
+ .m-details-box .m-details-center p{
+	font-size: 18px;
+	color: #424242;
+	line-height: 28px;
+	margin: 10px 0;
+}
+ .m-details-box .m-details-center h3.m-margin{
+ 	margin-top: 15px;
+ 	margin-left: 15px;
+ }
+ .m-details-box .m-details-center h3{
+	font-size: 24px;
+	font-weight: normal;
+} 
+.m-details-box .m-details-center h3 i{
+	color: #BF0000;
+}
+.m-details-box .m-details-img.m-float{
+	float:none;
+}
+.m-details-box .m-details-img.m-float img{
+	margin-top: 70px;
+}
+.m-details-box .m-details-img{
+	float: left;
+}
+.m-details-box .m-title{
+	font-size: 90px;
+	color: #ccc;
+	text-align: center;
+}
+.m-details-box .m-fzcs{
+	font-size: 26px;
+	color: #929292;
+	text-align: center;
+}
+
+.m-advantage-center .m-special-bottom{
+	position: relative;
+}
+.m-advantage-center .m-special-bottom .m-xian{
+	width: 395px;
+	height: 1px;
+	background: #CCCCCC;
+	position: absolute;
+	top: 40px;left: 335px;
+}
+/*客户晒单css*/
+.m-advantage-center .m-sd-list{
+	overflow: hidden;
+}
+.m-advantage-center .m-sd-list li{
+	border: 3px solid #DDDDDD;
+	padding: 18px 0;
+	float: left;
+	width: 275px;
+	margin-right: 14px;
+	margin-bottom: 33px;
+	
+}
+.m-sd-list li .m-list-imgbox{
+
+	background: #B7B4BB;
+	width: 238px;
+	height: 205px;
+	margin: 0 18px 30px 18px;
+}
+.m-sd-list li .m-comment-box{
+	padding:0 12px;
+    height: 30px;
+	color: #4E5662;
+    
+        white-space:nowrap; text-overflow:ellipsis;overflow:hidden;
+}
+.m-sd-list li .m-data-box{
+	padding:0 12px;
+}
+.m-sd-list li .m-data-box em{
+	font-style: italic;
+	color: #FF9110;
+}
+.m-sd-list li .m-data-box span{
+	float: right;
+	color: #4E5662;
+}
+.m-sd-list li .m-data-box span i{
+	color: #F9003B;
+}
+.m-advantage-center .m-btn{
+  width: 100%;
+  padding: 10px;
+  background: #E5EBEE;
+  cursor: pointer;
+  line-height: 80px;
+  margin-bottom: 60px;
+}
+.m-advantage-center .m-btn a{
+	text-decoration: none;
+	display: block;
+}
+.m-advantage-center .m-btn .m-btn-inner{
+   border: 1px solid #FFFFFF;
+   color: #8c0404;	
+   text-align: center;
+   font-size: 20px;
+}
+.m-Carousel-box {
+    padding: 15px 0;
+    background: #AFAFAF;
+}
+
+.m-Carousel-box .m-carousel-title {
+    width: 1190px;
+    margin: 0 auto;
+}
+
+.m-Carousel-box .m-carousel-title h3 {
+    font-style: normal;
+    font-size: 30px;
+    color: #fff;
+    line-height: 50px;
+    padding-left: 245px;
+}
+
+.m-Carousel-box .m-carousel-title p {
+    font-size: 44px;
+    color: #363533;
+    padding-left: 310px;
+    line-height: 22px;
+}
+
+.m-Carousel-box .m-bgt {
+    height: 22px;
+    margin-top: 15px;
+    background: url(http://img.jdbpcb.com/img/bb/bgt.png) no-repeat;
+    background-size: cover;
+}
+
+.m-Carousel-box .m-lb-box {
+    width: 1190px;
+    height: 210px;
+    margin: 10px auto 10px auto;
+}
+
+.m-Carousel-box .m-lb-box #wrapper {
+    width: 100%;
+    height: 100%;
+}
+
+.m-Carousel-box .m-lb-box #wrapper #carousel {
+    width: 100%;
+    position: relative;
+}
+
+.m-Carousel-box .m-lb-box #wrapper #carousel ul li {
+    width: 271px;
+    height: 210px;
+    float: left;
+    margin-left: 22px;
+    position: relative;
+}
+
+.m-Carousel-box .m-lb-box #wrapper #carousel ul li img {
+    width: 100%;
+    height: 100%;
+}
+
+.m-Carousel-box .m-lb-box #wrapper #carousel .prev, .m-Carousel-box .m-lb-box #wrapper #carousel .next {
+    width: 21px;
+    height: 68px;
+    display: block;
+}
+
+.m-Carousel-box .m-lb-box #wrapper #carousel .prev {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -10px;
+    background: url(http://img.jdbpcb.com/img/bb/L.png) no-repeat;
+    background-size: cover;
+}
+
+.m-Carousel-box .m-lb-box #wrapper #carousel .next {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -10px;
+    background: url(http://img.jdbpcb.com/img/bb/R.png) no-repeat;
+    background-size: cover;
+}
+
+.m-Carousel-box .m-promise {
+    width: 1190px;
+    margin: 30px auto 10px auto;
+}
+
+.m-Carousel-box .m-promise .m-promise-list {
+    width: 100%;
+}
+
+.m-Carousel-box .m-promise .m-promise-list li {
+    width: 25%;
+    float: left;
+}
+
+.m-Carousel-box .m-promise .m-promise-list li em {
+    width: 32px;
+    height: 33px;
+    margin-left: 50px;
+    background: red;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.m-Carousel-box .m-promise .m-promise-list li em.u-em1 {
+    background: url(http://img.jdbpcb.com/img/bb/fj.png) no-repeat;
+    background-size: cover;
+}
+
+.m-Carousel-box .m-promise .m-promise-list li em.u-em2 {
+    background: url(http://img.jdbpcb.com/img/bb/sj.png) no-repeat;
+    background-size: cover;
+}
+
+.m-Carousel-box .m-promise .m-promise-list li em.u-em3 {
+    background: url(http://img.jdbpcb.com/img/bb/hy.png) no-repeat;
+    background-size: cover;
+}
+
+.m-Carousel-box .m-promise .m-promise-list li em.u-em4 {
+    background: url(http://img.jdbpcb.com/img/bb/xx.png) no-repeat;
+    background-size: cover;
+}
+
+.m-Carousel-box .m-promise .m-promise-list li span {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 14px;
+    color: #fff;
+}
+
+.m-Contact {
+    width: 97px;
+    position: fixed;
+    top: 50%;
+    right: 5px;
+    margin-top: -210px;
+}
+
+.m-Contact .u-icon {
+    background: #141414;
+    padding: 0 0 10px 0;
+}
+
+.m-Contact .u-icon .u-logo {
+    width: 91px;
+    height: 35px;
+    margin: 5px auto;
+    background: url(http://img.jdbpcb.com/img/bb/logox.png) no-repeat #141414;
+    background-size: cover;
+}
+
+.m-Contact .u-icon .u-qqlogo {
+    width: 24px;
+    height: 24px;
+    margin: 0 auto;
+    background: url(http://img.jdbpcb.com/img/bb/QQlogo.png) no-repeat;
+    background-size: cover;
+}
+
+.m-Contact .u-icon .u-pcbjj {
+    width: 90px;
+    height: 25px;
+    background: #E2672D;
+    font-size: 14px;
+    color: #fff;
+    margin: 5px auto;
+    text-align: center;
+    line-height: 25px;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.m-Contact .u-icon .u-contact-text {
+    width: 25px;
+    height: 25px;
+    background: #B00203;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: 105px;
+    font-size: 12px;
+    color: #fff;
+}
+
+.m-Contact .u-icon .u-weixin {
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+}
+
+.m-Contact .u-wx-img {
+    width: 100%;
+    height: 115px;
+    background: #E16008;
+    overflow: hidden;
+    border-radius: 0 0 10px 10px;
+}
+
+.m-Contact .u-wx-img .u-wx-bg {
+    width: 91px;
+    height: 91px;
+    margin: 5px auto;
+    background: url(http://img.jdbpcb.com/img/bb/weixin.png) no-repeat;
+    background-size: cover;
+}
+
+.m-Contact .u-sm-text {
+    background: #E16008;
+    padding: 10px 5px;
+    border-radius: 10px 10px 0px 0px;
+    color: #141414;
+    font-size: 12px;
+}
+

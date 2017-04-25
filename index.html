@@ -1,0 +1,791 @@
+﻿
+
+
+<!doctype html>
+<html lang="zh">
+<head>
+    <title>欢迎进入PCB打样专家-深圳捷多邦科技有限公司</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+    <meta http-equivmetahttp-equiv="x-ua-compatible" content="IE=7" />
+    <link href="http://img.jdbpcb.com/css/base.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/landing-page.css" />
+    <link href="http://img.jdbpcb.com/js/jqueryplus/easyui/themes/icon.css" rel="stylesheet"
+        type="text/css" />
+    <link href="http://img.jdbpcb.com/js/jqueryplus/easyui/themes/default/easyui.css"
+        rel="stylesheet" type="text/css" />
+
+    <script src="http://img.jdbpcb.com/js/jqueryplus/easyui/jquery-1.8.0.min.js" type="text/javascript"></script>
+
+    <script src="http://img.jdbpcb.com/js/jqueryplus/easyui/jquery.easyui.min.js" type="text/javascript"></script>
+
+    <script src="http://img.jdbpcb.com/js/jqueryplus/easyui/locale/easyui-lang-zh_CN.js"
+        type="text/javascript"></script>
+
+</head>
+<body>
+    <!--背景-->
+    <div class="m-banner">
+        <div class="m-header">
+            <h1><a href="#"><img src="img/logo.jpg" /></a></h1>
+
+            <div class="m-nav-top">
+               <a href="/about/">网站首页</a> <span class="seq">| </span> <a href="/about/">公司简介</a> <span class="seq">|</span> <a href="/about/order.html">下单流程</a>
+                <span class="seq">|</span> <a href="/equipmentshow/">工厂展示</a> <span class="seq">|</span>
+                <a href="/modelshow/">样板展示</a> <span class="seq">|</span> <a href="/processshow/">工艺展示</a>
+                <span class="seq">|</span> <a href="/about/contactus.html">联系我们</a>
+            </div>
+        </div>
+        <div class="m-register-box">
+            <!--<div class="m-newly-register"><a href="/member/register.aspx">新用户注册</a></div>-->
+            <div class="m-Login-box">
+                <div class="m-vip">
+                    <i></i>
+                </div>
+
+
+
+                <div class="u-account-box">
+                    <form action="/member/login.aspx" onsubmit="return checkForm(this)" method="post" id="loginForm">
+                        <div class="u-account-number">
+                            <label>手机号码</label>
+                            <input type="text" placeholder="请输入11位长度手机号" />
+                        </div>
+                        <div class="u-account-number">
+                            <label>图片校验码</label>
+                            <input type="text" placeholder="请输入图片校验码" />
+                            <img class="imgcode" title="换一换" src="img/imgcode.jpg" alt="" />
+                        </div>
+                        <div class="u-account-number">
+                            <label>手机验证码</label>
+                            <input type="text" placeholder="请输入手机验证码"/>
+                            <button class="btn-phonecode" type="button">获取验证码</button>
+                        </div>
+                        <div class="u-account-number">
+                        <label>
+                            QQ(选填)</label>
+                        <input type="text" placeholder="请输入QQ号码(选填)" name="txtQQ" id="txtQQ">
+                    </div>
+                        <div class="u-account-number">
+                            <label>设置密码</label>
+                            <input type="text" placeholder="建议至少使用两种字符组合"/>
+                        </div>
+                        <div class="u-account-number">
+                            <label>确认密码</label>
+                            <input type="text" placeholder="请再次输入密码" />
+                        </div>
+
+
+
+                        <div class="u-user">
+                            <input id="checkboxsave" name="checkboxsave" type="checkbox" value="checked" checked="checked" />
+                            我已看过并同意<a target="_blank" href="#">《服务条款》</a>
+                            <span class="u-mm">已有账号？<a target="_blank" href="#">请登录 </a></span>
+                        </div>
+
+                        <div class="u-state">
+                            已为全球<i>十万</i>多家客户提供快样服务</div>
+                        <div class="u-Login-immediately" onclick="$('#loginForm').submit()">马上注册</div>
+                    </form>
+                </div>
+                
+            </div>
+            <div>
+            </div>
+        </div>
+    </div>
+    <!--中间-->
+    <div class="m-center-box">
+        <div class="m-center-nk">
+            <!---->
+            <ul class="u-guide">
+                <li class="ml-none">
+                        <div class="u-guide-img">
+                            <a href="/member/register.aspx"><img src="http://img.jdbpcb.com/img/bb/pc_03.jpg" alt="" /></a>
+                        </div>
+                    <h3><a href="/member/register.aspx">用户注册</a></h3>
+                    <p>用户注册</p>
+                    <div class="u-btn"><a href="/member/register.aspx">马上注册</a></div>
+                    <div class="u-bottom-border">
+                    </div>
+                </li>
+                <li>
+                    <div class="u-guide-img">
+                        <a href="/member/register.aspx"><img src="http://img.jdbpcb.com/img/bb/js_03.jpg" alt="" /></a>
+                    </div>
+                    <h3><a href="/member/register.aspx">PCB计价</a></h3>
+                    <p>
+                        PCB valuation
+                    </p>
+                    <div class="u-btn">
+                        <a href="/online/">马上进去</a>
+                    </div>
+                    <div class="u-bottom-border">
+                    </div>
+                </li>
+                <li>
+                    <div class="u-guide-img">
+                        <a href="/member/register.aspx"><img src="http://img.jdbpcb.com/img/bb/sj_07.jpg" alt="" /></a>
+                    </div>
+                    <h3><a href="/member/register.aspx">Layout设计</a></h3>
+                    <p>
+                        Layout design
+                    </p>
+                    <div class="u-btn">
+                        <a href="/layout/">马上进去</a>
+                    </div>
+                    <div class="u-bottom-border">
+                    </div>
+                </li>
+                <li>
+                    <div class="u-guide-img">
+                        <a href="/member/register.aspx"><img src="http://img.jdbpcb.com/img/bb/dy_09.jpg" alt="" /></a>
+                    </div>
+                    <h3><a href="/member/register.aspx">SMT打样</a></h3>
+                    <p>
+                        SMT proofing</p>
+                    <div class="u-btn">
+                        <a href="/smt/">马上进去</a>
+                    </div>
+                    <div class="u-bottom-border">
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+        
+        <!--加急和特价优惠-->
+        <div class="m-advantage-box">
+            <div class="m-advantage-center">
+            	<div class="m-center-content">
+            		<h3>还在为您的研发时间紧而着急吗？</h3>
+            		<h4>中国快捷的pcb快板打样工厂</h4>
+            		<div class="m-service-box">
+            			<span class="m-title">深圳捷多邦为您提供</span>
+            			<div class="m-content">12小时加急</div>
+            			<div class="m-time">12 hours express</div>
+            			<div class="m-deliery">单/双面板正常交期<i>2~3</i>天，铝基板是<i>3~4</i>天</div>
+            		</div>
+            	</div>
+            </div>
+        </div>
+        <!--注册导航-->
+        <div class="m-register-nav-box">
+        	<div class="m-advantage-center clearfix">
+        		<a href="javascript:;" class="m-register-l">
+        
+        			<p>自动计价，随时随地即时查询订单进度,方便快捷,全程掌控</p>
+        			
+        		
+        		</a>
+        		<a href="javascript:;" class="m-register-r">
+        			<p>本站系统与企业CRM系统相连，通过选择填写各项技术参数，实现<i><em>PCB，SMT贴片，钢网在线下单，</em></i>
+并<i><em>自动计价</em></i>，各项收费明码标价，无需讨价还价，拒绝暴利，拒绝佣金，<i>支持多种网络支付</i>。</p>
+                   <button>
+                   	<div class="m-button">
+                   		>>>我要注册<<<
+                   	</div>
+                   </button>
+        		</a>
+        	</div>
+        </div>
+      
+       <!--特价优惠-->
+       <div class="m-special-box">
+       	   <div class="m-special-title"></div>
+       	   <div class="m-advantage-center">
+       	   	   <div class="m-special-top clearfix">
+       	   	   	 <!--左-->
+       	   	   	  <div class="m-special-details">
+       	   	   	  	<div class="m-details-box clearfix">    	   	   	  		
+       	   	   	  	
+       	   	   	  	 <div class="m-details-center">
+       	   	   	  	 	<h3>单/双面板</h3>
+       	   	   	  	 	<p>
+       	   	   	  	 		5*5cm内<br>
+       	   	   	  	 	可12，24小时加急,<br>
+正常效期2~3天<br>
+仅需工程费。 
+       	   	   	  	 	</p>
+       	   	   	  	 	<h3><i>48元/10片</i></h3>
+       	   	   	  	 </div>
+       	   	   	  	 <div class="m-details-img">
+       	   	   	  	 	<img src="img/sellng1.jpg" alt="" />
+       	   	   	  	 </div>
+       	   	   	    </div>
+       	   	   	    
+       	   	   	  <div class="m-details-box m-padding m-border-none clearfix">    	   	   	  		
+       	   	   	  	<div class="m-details-img">
+       	   	   	  	 	<img src="img/sellng2.jpg" alt="" />
+       	   	   	  	 </div>
+       	   	   	  	 <div class="m-details-center m-margin">
+       	   	   	  	 	<h3>四层板打样</h3>
+       	   	   	  	 	<p>
+       	   	   	  	 		10*10cm内<br>
+       	   	   	  	 	可12，24小时加急<br>
+正常效期4~5天 
+ 
+       	   	   	  	 	</p>
+       	   	   	  	 	<h3 class="m-margin"><i>200元/10片</i></h3>
+       	   	   	  	 </div>
+       	   	   	  	 
+       	   	   	    </div>
+       	   	   	    
+       	   	   	  </div>
+       	   	      
+       	   	      	
+       	   	      <!--中-->
+       	   	      <div class="m-special-details">
+       	   	   	  	<div class="m-details-box m-padding-none clearfix">  	   	   	  		
+       	   	   	  	  <div class="m-title">SELLNG</div>
+       	   	   	  	  <div class="m-fzcs">飞针测试 军工品质</div>
+       	   	   	  	</div>
+       	   	   	    
+       	   	   	  <div class="m-details-box m-padding m-border-none clearfix">    	   	   	  		
+       	   	   	  	<div class="m-details-img">
+       	   	   	  	 	<img src="img/sellng3.jpg" alt="">
+       	   	   	  	 </div>
+       	   	   	  	 <div class="m-details-center m-margin">
+       	   	   	  	 	<h3>单/双面板</h3>
+       	   	   	  	 	<p>
+       	   	   	  	 		10*10cm内<br>
+ 可12，24小时加急<br>
+正常效期2~3天 <br>
+仅需工程费。 
+       	   	   	  	 	</p>
+       	   	   	  	 	<h3><i>50元/10片</i></h3>
+       	   	   	  	 </div>
+       	   	   	  	 
+       	   	   	    </div>
+       	   	   	    
+       	   	   	  </div>
+       	   	      <!--右-->
+       	   	        <div class="m-special-details" style="border: none;">
+       	   	   	  	<div class="m-details-box m-border-none clearfix" >    	   	   	  		
+       	   	   	  	
+       	   	   	  	 <div class="m-details-center">
+       	   	   	  	 	<h3>超值价六层板打样</h3>
+       	   	   	  	 	<p>
+       	   	   	  	 		10*10cm内<br>
+       	   	   	  	 	可72小时加急，<br>
+正常效期6~7天 
+       	   	   	  	 	</p>
+       	   	   	  	 	<h3><i>￥960元/10片</i></h3>
+       	   	   	  	 </div>
+       	   	   	  	 <div class="m-details-img m-float">
+       	   	   	  	 	<img src="img/sellng4.jpg" alt="" />
+       	   	   	  	 </div>
+       	   	   	    </div>
+
+       	   	   	  </div>
+       	   	      
+       	   	   </div>
+       	       
+       	       <div class="m-special-bottom clearfix">
+       	       	         	   	   	 <!--左-->
+       	   	   	  <div class="m-special-details m-height m-border-none">
+       	   	   	  	<div class="m-details-box m-border-none clearfix">    	   	   	  		
+
+       	   	   	  	 <div class="m-details-img">
+       	   	   	  	 	<img src="img/sellng5.jpg" alt="" />
+       	   	   	  	 </div>
+       	   	   	   </div>       	   	   	    
+       	   	   	  </div>
+       	   	      
+       	   	      	
+       	   	      <!--中-->
+       	   	      <div class="m-special-details m-height m-border-none">
+       	   	   	  
+       	   	   	    
+       	   	   	  <div class="m-details-box m-padding m-border-none clearfix">    	   	   	  		
+       	   
+       	   	   	  	 <div class="m-details-center m-margintwo">
+       	   	   	  	 	<h3>铝基板打样</h3>
+       	   	   	  	 	<p>
+       	   	   	  	 		10*10cm内<br>
+可12小时加急 , 正常效期3~4天 
+       	   	   	  	 	</p>
+       	   	   	  	 	<h3><i>￥100元/10片</i></h3>
+       	   	   	  	 </div>
+       	   	   	  	 
+       	   	   	    </div>
+       	   	   	    
+       	   	   	  </div>
+       	   	      <!--右-->
+       	   	        <div class="m-special-details m-height " style="border: none;">
+       	   	   	  	<div class="m-details-box m-border-none clearfix" >    	   	   	  		
+       	   	   	  	
+       	   	   	  	 <div class="m-details-center">
+       	   	   	  	 	<h3 style="text-align: center; margin-bottom: 30px;">温馨提示</h3>
+       	   	   	  	 	<p style="font-size: 18px; line-height: 40px;">
+  关于颜色：除了亚光黑，亚光绿和紫色，<br>其它颜色， 我们一律免费！<br>关于发货:上午11:00前下单付款，交期为<br>当天晚上23：00发货。下午17：30前下单<br>付款，交期为第二天上午12：00前发货。	   	   	  	 	</p>
+       	   	   	  	 </div>
+       	   	   	    </div>
+
+       	   	   	  </div>
+       	   	      <div class="m-xian"></div>
+       	       </div>
+       	   
+       	   </div>
+       </div>
+    	
+    	
+    <!--四大优势和品牌保证-->
+    <div class="m-advantage-box">
+        <div class="m-advantage-center">
+            <!--四大优势-->
+            <div class="m-advantage-title u-advan-bg1">
+            </div>
+            <ul class="m-advantage-list clearfix">
+                <li class="ml-none"><i class="u-list1"></i>
+                    <div class="u-advantage-title">
+                        <em class="u-title-icon1"></em><span>高性价比优势</span>
+                    </div>
+                    <div class="u-advantage-text" style="border: 10px solid #5A5657;">
+                        双面板5cm以内只需50元/款; 四层板在5cm以内仅需200元/款； 此外，网上付款客户再享95折特惠。
+                    </div>
+                </li>
+                <li><i class="u-list2"></i>
+                    <div class="u-advantage-title">
+                        <em class="u-title-icon2"></em><span>快速交货优势</span>
+                    </div>
+                    <div class="u-advantage-text" style="border: 10px solid #EB5904;">
+                        单/双层面板12小时加急、四层板加急2天、六层板加急3天出货，产品准时交付率高达99%以上。
+                    </div>
+                </li>
+                <li><i class="u-list3"></i>
+                    <div class="u-advantage-title">
+                        <em class="u-title-icon3"></em><span>原材料\产品质量保障</span>
+                    </div>
+                    <div class="u-advantage-text" style="border: 10px solid #5A5657;">
+                        板材全部采用建滔KB6060A和金安国纪A级料，有防伪水印，上市公司生产，符合UL和ROHS标准。 产品全部采用双重测试 （AOI光学扫描+飞针测试）
+                    </div>
+                </li>
+                <li><i class="u-list4"></i>
+                    <div class="u-advantage-title">
+                        <em class="u-title-icon4"></em><span>精湛的工艺</span>
+                    </div>
+                    <div class="u-advantage-text" style="border: 10px solid #E85A06;">
+                        可订做8~10层板精密打样，最小可接4/4mil线宽线距,最小8mil过孔。
+                    </div>
+                </li>
+            </ul>
+            <!--品质保障-->
+            <div class="m-advantage-title u-advan-bg2">
+            </div>
+            <ul class="m-advantage-list2 clearfix">
+                <li class="ml-none">
+                    <div class="u-advantage-title">
+                        <em></em><span>优质的板材</span>
+                    </div>
+                    <p>
+                        对于电路板核心原材料板材，采用的是 A级军工料，质量非常有保证。
+                    </p>
+                    <div class="u-img">
+                        <img src="http://img.jdbpcb.com/img/bb/ps1.png" alt="" />
+                    </div>
+                </li>
+                <li>
+                    <div class="u-img">
+                        <img src="http://img.jdbpcb.com/img/bb/ps2.png" alt="" />
+                    </div>
+                    <div class="u-advantage-title">
+                        <em></em><span>精致的印刷工艺</span>
+                    </div>
+                    <p>
+                        采用广信感光油墨，符合环保标准，经高温 烘烤，油墨色泽光鲜艳丽，字符清晰。
+                    </p>
+                </li>
+                <li>
+                    <div class="u-advantage-title">
+                        <em></em><span>精细化的制作过程</span>
+                    </div>
+                    <p>
+                        多种表面处理工艺：金手指、沉金、喷锡； 多种阻焊颜色：绿、蓝、红、黄、白，哑光 黑，哑光绿，紫。
+                    </p>
+                    <div class="u-img">
+                        <img src="http://img.jdbpcb.com/img/bb/ps3.png" alt="" />
+                    </div>
+                </li>
+                <li>
+                    <div class="u-img">
+                        <img src="http://img.jdbpcb.com/img/bb/ps4.png" alt="" />
+                    </div>
+                    <div class="u-advantage-title">
+                        <em></em><span>快捷更准时的配送</span>
+                    </div>
+                    <p>
+                        我们将在承诺的时间内，及时将样板送达 您的手中。
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </div>
+   
+   <!--轮播-->
+    <div class="m-Carousel-box">
+        <div class="m-carousel-title">
+            <h3>
+                值得您信赖的</h3>
+            <p>
+                PCB打样专家</p>
+        </div>
+        <div class="m-bgt">
+        </div>
+        <!--轮播图片-->
+        <div class="m-lb-box">
+            <!--<span class="prev" style="display: block;"></span>
+			<div>
+			<dl id="roll" class="clearfix" style="display: block;">
+				<dd><img src="http://img.jdbpcb.com/img/bb/t_03.jpg"/></dd>
+				<dd><img src="http://img.jdbpcb.com/img/bb/t_06.png"/></dd>
+				<dd><img src="http://img.jdbpcb.com/img/bb/t_08.png"/></dd>
+				<dd><img src="http://img.jdbpcb.com/img/bb/t_11.png"/></dd>
+		        <dd><img src="http://img.jdbpcb.com/img/bb/t_08.png"/></dd>
+				<dd><img src="http://img.jdbpcb.com/img/bb/t_11.png"/></dd>
+			</dl>
+			</div>
+	      <span class="next" style="display: block;"></span>-->
+            <div id="wrapper">
+                <div id="carousel" class="">
+                    <ul class="clearfix">
+                        <li>
+                            <img src="http://img.jdbpcb.com/img/bb/p3.jpg" /></li>
+                        <li>
+                            <img src="http://img.jdbpcb.com/img/bb/t_06.png" /></li>
+                        <li>
+                            <img src="http://img.jdbpcb.com/img/bb/p1.jpg" /></li>
+                        <li>
+                            <img src="http://img.jdbpcb.com/img/bb/p2.jpg" /></li>
+                        <li>
+                            <img src="http://img.jdbpcb.com/img/bb/t_08.png" /></li>
+                        <li>
+                            <img src="http://img.jdbpcb.com/img/bb/t_11.png" /></li>
+                    </ul>
+                    <a id="prev" class="prev" href="#"></a><a id="next" class="next" href="#"></a>
+                </div>
+            </div>
+        </div>
+        <div class="m-bgt">
+        </div>
+        <div class="m-promise">
+            <ul class="m-promise-list clearfix">
+                <li><em class="u-em1"></em><span>顺丰快递<br>
+                    以最快的速度送到您的手机</span> </li>
+                <li><em class="u-em2"></em><span>24小时急速<br>
+                    全网最快质量最优的快板</span> </li>
+                <li><em class="u-em3"></em><span>行业首家积分商城<br>
+                    百种商品等您兑换</span> </li>
+                <li><em class="u-em4"></em><span>万人追捧+高分好评<br>
+                    军工品质，精细化的制作过程</span> </li>
+            </ul>
+        </div>
+    </div>
+    <!--交易流程-->
+   <div class="m-advantage-box">
+        <div class="m-advantage-center">
+            <div class="m-advantage-title u-advan-bg3">
+            </div>
+            <div class="m-transaction-flow">
+                <span class="u-span1">计算价格</span> <span class="u-span2">注册登录</span> <span class="u-span3">
+                    在线下单</span> <span class="u-span4">审核确认</span> <span class="u-span5">在线付款</span>
+                <span class="u-span6">进度查询</span> <span class="u-span7">收货评价</span> <span class="u-span8">
+                    订单完成</span>
+            </div>
+        </div>
+    </div>
+    <!--客户晒单-->
+    <div class="m-special-box">
+       	   <div class="m-special-title m-special-title-bj2"></div>
+       	   <div class="m-advantage-center">
+               <ul class="m-sd-list clearfix">
+               	 <li>
+               	 	<div class="m-list-imgbox">
+               	 		<img src="img/zs_03.jpg" alt="" />
+               	 	</div>
+               	 	<div class="m-comment-box">
+               	 		第一次打样，感觉太棒了。
+               	 	</div>
+               	 	<div class="m-data-box">
+               	 		<em>辽宁</em>
+               	 		<span>(已有<i>243</i>人浏览)</span>
+               	 	</div>
+               	 </li>
+               	  <li>
+               	 	<div class="m-list-imgbox">
+               	 		<img src="img/zs_03.jpg" alt="" />
+               	 	</div>
+               	 	<div class="m-comment-box">
+               	 		第一次打样，感觉太棒了。
+               	 	</div>
+               	 	<div class="m-data-box">
+               	 		<em>辽宁</em>
+               	 		<span>(已有<i>243</i>人浏览)</span>
+               	 	</div>
+               	 </li>
+               	  <li>
+               	 	<div class="m-list-imgbox">
+               	 		<img src="img/zs_03.jpg" alt="" />
+               	 	</div>
+               	 	<div class="m-comment-box">
+               	 		第一次打样，感觉太棒了。
+               	 	</div>
+               	 	<div class="m-data-box">
+               	 		<em>辽宁</em>
+               	 		<span>(已有<i>243</i>人浏览)</span>
+               	 	</div>
+               	 </li>
+               	  <li>
+               	 	<div class="m-list-imgbox">
+               	 		<img src="img/zs_03.jpg" alt="" />
+               	 	</div>
+               	 	<div class="m-comment-box">
+               	 		第一次打样，感觉太棒了。
+               	 	</div>
+               	 	<div class="m-data-box">
+               	 		<em>辽宁</em>
+               	 		<span>(已有<i>243</i>人浏览)</span>
+               	 	</div>
+               	 </li>
+               	  <li>
+               	 	<div class="m-list-imgbox">
+               	 		<img src="img/zs_03.jpg" alt="" />
+               	 	</div>
+               	 	<div class="m-comment-box">
+               	 		第一次打样，感觉太棒了。
+               	 	</div>
+               	 	<div class="m-data-box">
+               	 		<em>辽宁</em>
+               	 		<span>(已有<i>243</i>人浏览)</span>
+               	 	</div>
+               	 </li>
+               	  <li>
+               	 	<div class="m-list-imgbox">
+               	 		<img src="img/zs_03.jpg" alt="" />
+               	 	</div>
+               	 	<div class="m-comment-box">
+               	 		第一次打样，感觉太棒了。
+               	 	</div>
+               	 	<div class="m-data-box">
+               	 		<em>辽宁</em>
+               	 		<span>(已有<i>243</i>人浏览)</span>
+               	 	</div>
+               	 </li>
+               	  <li>
+               	 	<div class="m-list-imgbox">
+               	 		<img src="img/zs_03.jpg" alt="" />
+               	 	</div>
+               	 	<div class="m-comment-box">
+               	 		第一次打样，感觉太棒了。
+               	 	</div>
+               	 	<div class="m-data-box">
+               	 		<em>辽宁</em>
+               	 		<span>(已有<i>243</i>人浏览)</span>
+               	 	</div>
+               	 </li>
+               	  <li>
+               	 	<div class="m-list-imgbox">
+               	 		<img src="img/zs_03.jpg" alt="" />
+               	 	</div>
+               	 	<div class="m-comment-box">
+               	 		第一次打样，感觉太棒了。
+               	 	</div>
+               	 	<div class="m-data-box">
+               	 		<em>辽宁</em>
+               	 		<span>(已有<i>243</i>人浏览)</span>
+               	 	</div>
+               	 </li>               	
+               </ul>
+               <div class="m-btn">
+               	<a href="javascript:;">
+               		<div class="m-btn-inner">
+               	   	   >>>>我要看更多的案例<<<
+               	   </div>
+               	</a>
+               	   
+               </div>
+       	   </div>
+       </div> 
+     
+     	
+     <!--客户案例-->
+    <div class="m-advantage-box">
+        <div class="m-advantage-center">
+
+            <!--客户案例-->
+            <div class="m-advantage-title u-advan-bg4">
+            </div>
+            <ul class="m-advantage-list3 clearfix">
+                <li class="ml-none">
+                    <div class="u-img">
+                        <img src="http://img.jdbpcb.com/img/bb/c1_03.jpg" alt="" />
+                    </div>
+                </li>
+                <li>
+                    <div class="u-img">
+                        <img src="http://img.jdbpcb.com/img/bb/c_03.jpg" alt="" />
+                    </div>
+                </li>
+                <li>
+                    <div class="u-img">
+                        <img src="http://img.jdbpcb.com/img/bb/c_05.png" alt="" />
+                    </div>
+                </li>
+                <li>
+                    <div class="u-img">
+                        <img src="http://img.jdbpcb.com/img/bb/c_07.png" alt="" />
+                    </div>
+                </li>
+                <li>
+                    <div class="u-img">
+                        <img src="http://img.jdbpcb.com/img/bb/c_09.png" alt="" />
+                    </div>
+                </li>
+                <li>
+                    <div class="u-img">
+                        <img src="http://img.jdbpcb.com/img/bb/c_11.png" alt="" />
+                    </div>
+                </li>
+                <li class="ml-none">
+                    <div class="u-img">
+                        <img src="http://img.jdbpcb.com/img/bb/c_20.jpg" alt="" />
+                    </div>
+                </li>
+                <li>
+                    <div class="u-img">
+                        <img src="http://img.jdbpcb.com/img/bb/c_18.png" alt="" />
+                    </div>
+                </li>
+                <li>
+                    <div class="u-img">
+                        <img src="http://img.jdbpcb.com/img/bb/c_22.png" alt="" />
+                    </div>
+                </li>
+                <li>
+                    <div class="u-img">
+                        <img src="http://img.jdbpcb.com/img/bb/c_23.png" alt="" />
+                    </div>
+                </li>
+                <li>
+                    <div class="u-img">
+                        <img src="http://img.jdbpcb.com/img/bb/c_24.png" alt="" />
+                    </div>
+                </li>
+                <li>
+                    <div class="u-img">
+                        <img src="http://img.jdbpcb.com/img/bb/c_25.png" alt="" />
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--底部-->
+    <div class="footer">
+        <div class="footerbox">
+            <div class="footlink">
+                <div style="float: left; margin-top: 30px; margin-right: 10px; border-right: 1px solid #565656;
+                    padding-right: 10px;">
+                    <a href="http://img.jdbpcb.com/img/iso.jpg" target="_blank">
+                        <img src="http://img.jdbpcb.com/img/isotag.gif"></a><br>
+                    <span style="color: #ccc; line-height: 30px; display: block; text-align: center;">已通过ISO90001:2008质量体系认证</span></div>
+                <ul class="botmenu">
+                    <li>全球PCB快捷打样、小批量生产服务商</li>
+                    <li>PCB、钢网、SMT加工一站式服务</li>
+                    <li>特色电子电路互联服务领跑者</li>
+                </ul>
+                <ul class="botmena">
+                    <li>公司地址：深圳市福田区福明路雷圳大厦2001-2002</li>
+                    <li>工厂地址：深圳市坑梓街道金沙社区金沙工业三路2号</li>
+                    <li>咨询电话：400-852-8880</li>
+                </ul>
+                <ul class="botmenb">
+                    <li>全国办事处：</li>
+                    <li><a href="http://hangzhou.jdbpcb.com" target="_blank">杭州</a> <a href="http://henan.jdbpcb.com"
+                        target="_blank">河南</a> <a href="http://zhengzhou.jdbpcb.com" target="_blank">郑州</a>
+                        <a href="http://shandong.jdbpcb.com" target="_blank">山东</a> <a href="http://jinan.jdbpcb.com"
+                            target="_blank">济南</a> <a href="http://fujian.jdbpcb.com" target="_blank">福建</a>
+                        <a href="http://fuzhou.jdbpcb.com" target="_blank">福州</a> <a href="http://guangzhou.jdbpcb.com"
+                            target="_blank">广州</a> <a href="http://guangdong.jdbpcb.com" target="_blank">广东</a>
+                        <a href="http://dongguan.jdbpcb.com" target="_blank">东莞</a> <a href="http://zhejiang.jdbpcb.com"
+                            target="_blank">浙江</a> <a href="http://ningbo.jdbpcb.com" target="_blank">宁波</a>
+                        <a href="http://wenzhou.jdbpcb.com" target="_blank">温州</a> <a href="http://anhui.jdbpcb.com"
+                            target="_blank">安徽</a> <a href="http://xiamen.jdbpcb.com" target="_blank">厦门</a>
+                        <a href="http://hunan.jdbpcb.com" target="_blank">湖南</a> <a href="http://jiangsu.jdbpcb.com"
+                            target="_blank">江苏</a> <a href="http://nanjing.jdbpcb.com" target="_blank">南京</a>
+                        <a href="http://jiangxi.jdbpcb.com" target="_blank">江西</a> <a href="http://shantou.jdbpcb.com"
+                            target="_blank">汕头</a> <a href="http://zhuhai.jdbpcb.com" target="_blank">珠海</a>
+                        <a href="http://sichuan.jdbpcb.com" target="_blank">四川</a> <a href="http://chengdu.jdbpcb.com"
+                            target="_blank">成都</a> <a href="http://guangxi.jdbpcb.com" target="_blank">广西</a>
+                        <a href="http://beijing.jdbpcb.com" target="_blank">北京</a> <a href="http://shanghai.jdbpcb.com"
+                            target="_blank">上海</a> <a href="http://tianjin.jdbpcb.com" target="_blank">天津</a>
+                        <a href="http://chongqing.jdbpcb.com" target="_blank">重庆</a> <a href="http://jinhua.jdbpcb.com"
+                            target="_blank">金华</a> <a href="http://suzhou.jdbpcb.com" target="_blank">苏州</a>
+                        <a href="http://kunshan.jdbpcb.com" target="_blank">昆山</a> <a href="http://wuxi.jdbpcb.com"
+                            target="_blank">无锡</a> <a href="http://hubei.jdbpcb.com" target="_blank">湖北</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="copyright">
+                深圳捷多邦科技有限公司版权所有 <a href="http://www.miitbeian.gov.cn/" target="_blank">粤ICP备15005641号-2</a>
+                | <a href="http://www.jdbpcb.com/about/order.html" target="_blank">下单流程</a> | <a
+                    href="http://www.jdbpcb.com/online/searchorder.aspx" target="_blank">订单查询</a>
+                | <a href="/product/">PCB产品</a>| <a href="/keypage_1.html">推荐产品</a> | <a href="http://www.kuaidi100.com/"
+                    target="_blank">快递查询</a>
+
+                <script type="text/javascript">
+                    var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+                    document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F020f889b5d07e64770632ad47a127e88' type='text/javascript'%3E%3C/script%3E"));
+                </script>
+
+      
+
+                <a href="http://tongji.baidu.com/hm-web/welcome/ico?s=020f889b5d07e64770632ad47a127e88"
+                    target="_blank">
+                    <img border="0" src="http://eiv.baidu.com/hmt/icon/21.gif" width="20" height="20"></a>
+
+                <script type="text/javascript">
+                    var _sogou_sa_q = _sogou_sa_q || [];
+                    _sogou_sa_q.push(['_sid', '204951-210623']);
+                    (function() {
+                        var _sogou_sa_protocol = (("https:" == document.location.protocol) ? "https://" : "http://");
+                        var _sogou_sa_src = _sogou_sa_protocol + "hermes.sogou.com/sa.js%3Fsid%3D204951-210623";
+                        document.write(unescape("%3Cscript src='" + _sogou_sa_src + "' type='text/javascript'%3E%3C/script%3E"));
+                    })();
+                </script>
+
+                <script src="http://hermes.sogou.com/sa.js?sid=204951-210623" type="text/javascript"></script>
+
+                <script src="http://pb.kspost.sogou.com/lyb.js" type="text/javascript"></script>
+
+                <script type="text/javascript" src="//stat.tf.360.cn/search/c.js?u=27807073" charset="utf-8"></script>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+<script src="http://img.jdbpcb.com/js/bb/jquery.carouFredSel-6.0.4-packed.js"></script>
+
+<script>
+
+    $('#carousel ul').carouFredSel({
+        prev: '#prev',
+        next: '#next',
+        pagination: "#pager",
+        scroll: 1000
+    });
+
+    function checkForm() {
+        var username = $.trim($("#username").val());
+        var pwd = $.trim($("#password").val());
+
+        if (username.length == 0) {
+            alert("请输入用户编号或手机号码!"); return false;
+        }
+        if (pwd.length == 0) {
+            alert("请输入密码!"); return false;
+        }
+        return true;
+    }
+</script>
+
